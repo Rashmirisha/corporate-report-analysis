@@ -1,0 +1,40 @@
+# ---------- Python (backend) ----------
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/htmlcov/
+backend/.coverage
+backend/coverage.xml
+
+# ---------- Node (frontend) ----------
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/coverage/
+frontend/.eslintcache
+
+# ---------- Editor / OS ----------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ---------- Data: uploaded reports + cache (NEVER commit real annual reports) ----------
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+backend/data/fixtures/*
+!backend/data/fixtures/.gitkeep
+
+# ---------- Local environment files ----------
+backend/.env
+backend/.env.local
+frontend/.env
+frontend/.env.local

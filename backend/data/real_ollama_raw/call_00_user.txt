@@ -1,0 +1,30 @@
+Company: Company A
+Document: Acme.pdf
+Total pages: 2
+
+Below is the EVIDENCE PACK — the only source you may use.
+Cite by ref_id exactly as shown.
+
+--- EVIDENCE #1 ---
+id: A_9d3d47f3dc5a_p002_c000
+kind: chunk
+page: 2
+company: A
+document_name: Acme.pdf
+document_sha256: 9d3d47f3dc5ae537df8995bbea3e61cefcd0b0b23c39511bd240fbb8c4c2f168
+snippet:
+In FY24 Acme reported record customer satisfaction scores and expanded the EMEA plant network by two new facilities. Key risks include supply-chain volatility, currency fluctuations in EMEA, and rising input costs. Financial highlights are presented in the audited statements section.
+
+--- EVIDENCE #2 ---
+id: A_9d3d47f3dc5a_p001_c000
+kind: chunk
+page: 1
+company: A
+document_name: Acme.pdf
+document_sha256: 9d3d47f3dc5ae537df8995bbea3e61cefcd0b0b23c39511bd240fbb8c4c2f168
+snippet:
+Acme Corp Annual Report FY24. Acme is a manufacturer of industrial widgets operating across EMEA, APAC, and the Americas. Our strategy emphasises vertical integration, automation, and brand-led growth in core markets.
+
+--- END EVIDENCE PACK ---
+
+Now produce the JSON analysis. Follow the schema. Cite every claim.
