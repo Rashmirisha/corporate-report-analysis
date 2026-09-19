@@ -355,3 +355,32 @@ runs it. The browser just talks to the backend.
   cite each other's chunks, tables, or evidence.
 * Stage 3 isolation tests confirm the comparator never mixes Company A
   evidence into Company B sections or vice versa.
+
+---
+
+## License
+
+This project is released under the **MIT License**. See the [LICENSE](./LICENSE)
+file at the repository root for the full text.
+
+```text
+MIT License
+Copyright (c) 2026 Rashmi
+```
+
+## Third-party software
+
+This project depends only on permissively-licensed open-source libraries. No
+code from external repositories has been copied into this codebase; the
+following list is provided as an acknowledgement of upstream projects, not as
+a copyright attribution block.
+
+**Backend (Python):** FastAPI, pydantic, numpy, pdfplumber, pypdf, httpx,
+uvicorn, python-multipart, python-dotenv, typing-extensions, pytest,
+pytest-cov. Licenses: MIT and BSD-3-Clause.
+
+**Frontend (JavaScript):** React, React DOM, React Router, Recharts, Vite,
+Tailwind CSS, PostCSS, Autoprefixer, Vitest, Testing Library. Licenses: MIT.
+
+No copyleft (GPL / AGPL / LGPL / SSPL) or commercial-license dependencies are
+used.
