@@ -54,10 +54,11 @@ A system that analyzes and compares two companies' annual reports (Tata Motors a
 4. **Evidence & Decision-Support Dashboard:** shows results with page-level evidence.
 
 ## Current status
-- Ingestion, agents, comparison and dashboard are implemented.
-- The dashboard still needs a final end-to-end test with the real reports.
+- Stages 1-3 (ingestion, two agents, comparison) are implemented.
+- The dashboard is implemented (integrated with the analysis APIs) but still needs a final end-to-end test with the real reports.
 - ChromaDB retrieval is not implemented yet.
-
+- Note: the README stage table still lists Stage 4 as "awaiting approval", so it is out of date and needs updating by the team.
+s
 ## Team tasks
 - Person 1: dashboard end-to-end testing
 - Person 2: ChromaDB / RAG retrieval
